@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: ahmedkhemiri24/flask-app-kubernetes:latest
+        image: flaskaksregistry/flask-app-kubernetes:latest
         resources:
           requests:
             cpu: 100m
@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
       - name: flask-app-container
-        image: ahmedkhemiri24/flask-app-kubernetes:latest
+        image: flaskaksregistry/flask-app-kubernetes:latest
         resources:
           requests:
             cpu: 100m
